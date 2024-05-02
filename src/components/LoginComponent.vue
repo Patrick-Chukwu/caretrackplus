@@ -8,6 +8,18 @@
     </div>
 
    <form class="column login_form" action="">
+    <select name="userrole" id="userrole">
+      <option value="admin">Admin</option>
+      <option value="doctor">Doctor</option>
+      <option value="nurse">Nurse</option>
+      <option value="receptionist">Reception</option>
+      <option value="pharmacy">Pharmacy</option>
+      <option value="pharmacy">Laboratory</option>
+
+
+
+
+    </select>
     <input class="login_input" type="text" name="userid" id="userid" placeholder="User ID">
     <input class="login_input" type="password" name="password" id="password" placeholder="Password">
    </form>

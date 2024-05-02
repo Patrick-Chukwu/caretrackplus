@@ -72,7 +72,7 @@ body {
     line-height: var(--medium-lineheight);
     font-weight: 700;
     max-width: 252px;
-    padding: var(--medium-padding) var(--big-padding);
+    padding: var(--small-padding) var(--big-padding);
     align-self: center;
     cursor: pointer;
 
@@ -120,7 +120,7 @@ body {
 border-radius: var(--radius);
 background-color: var(--primary-color);
 text-align: left;
-padding: 1rem .5rem;
+padding: 1rem 1rem;
 width: 252px;
 max-height: 53px;  
 }
@@ -175,10 +175,10 @@ input {
   /* loginpage designs */
   .login_page {
     flex: 1;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .login_page-left {
-    flex-shrink: 2;
+    flex-shrink: 1;
     width: 50%;
     justify-content: center;
     align-items: center;    
@@ -213,19 +213,26 @@ input {
   }
   .login_page-right {
     width: 50%;
-    border: apx solid var(--secondary-color);
+    /* border: apx solid var(--secondary-color); */
+    flex-shrink: 1;
+
   }
   .nurse_image{
     /* max-width: 716px; */
-    /* max-width: 50%; */
-    width: 716px;
+    min-width: 716px;
     height: 100vh;
     position: relative;
     right: 0;
     top: 0;
+    border: apx solid var(--secondary-color);
+
   }
   .forgot_password {
     text-decoration: underline;
     font-weight: 600;
     margin-bottom: var(--big-lineheight);
+  }
+
+  @media screen (max) {
+    
   }
