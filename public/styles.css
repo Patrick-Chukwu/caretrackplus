@@ -52,6 +52,11 @@ body {
     line-height: var(--big-lineheight);
   }
 
+  .medium_text {
+    font-size: var(--medium-text);
+    line-height: var(--medium-lineheight);
+  }
+
   .red_text {
     color: var(--secondary-color);
   }
@@ -164,4 +169,63 @@ input {
 
   .footer {
     text-transform: uppercase;
+  }
+
+  
+  /* loginpage designs */
+  .login_page {
+    flex: 1;
+    overflow: hidden;
+  }
+  .login_page-left {
+    flex-shrink: 2;
+    width: 50%;
+    justify-content: center;
+    align-items: center;    
+    width: 50%;
+    gap: var(--big-padding);
+
+  }
+.loginpage_box {
+  gap: var(--medium-gap);
+}
+  .client_logo {
+    width: 107px;
+  }
+  .client_name {
+    font-weight: 600;
+  }
+
+  .login_form {
+    gap: var(--medium-gap);
+
+  }
+  .login_input {
+    width: 460px;
+    height: 54px;
+  }
+  .login_input::placeholder {
+    color: var(--primary-color);
+    padding-left: var(--medium-padding);
+    font-weight: 500;
+    font-size: var(--medium-text);
+    line-height: var(--medium-lineheight);
+  }
+  .login_page-right {
+    width: 50%;
+    border: apx solid var(--secondary-color);
+  }
+  .nurse_image{
+    /* max-width: 716px; */
+    /* max-width: 50%; */
+    width: 716px;
+    height: 100vh;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .forgot_password {
+    text-decoration: underline;
+    font-weight: 600;
+    margin-bottom: var(--big-lineheight);
   }
