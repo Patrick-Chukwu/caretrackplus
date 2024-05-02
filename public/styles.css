@@ -68,7 +68,12 @@ body {
     max-width: 252px;
     padding: var(--medium-padding) var(--big-padding);
     align-self: center;
+    cursor: pointer;
 
+  }
+
+  .button:hover, .button:active {
+    background-color: var(--primary-color);
   }
 
   /* onboarding design starts */
