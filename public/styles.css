@@ -142,6 +142,7 @@ input {
     gap: var(--medium-padding);
     justify-content: flex-start;
     align-items: center;
+    cursor: pointer;
 
   }
 
