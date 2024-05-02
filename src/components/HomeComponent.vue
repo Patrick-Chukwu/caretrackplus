@@ -1,8 +1,38 @@
 <template>
   <div class="home column">
-    <h2 class="big_text">Welcome to CareTrack+</h2>
-  <router-link to="/onboard" class="button">Onboard page</router-link>
-  <router-link to="/login" class="button">Login page</router-link>
+    <div class="hero column">
+      <nav class="navbar row">
+        <router-link to="/" class="logo_box">
+          <img class="logo" src="../../public/logofull.svg" alt="CareTrack+ logo">
+        </router-link>
+        <div class="nav_menus row">
+  <router-link to="/onboard" class="nav_menu">Solution</router-link>
+  <router-link to="/login" class="nav_menu">Pricing</router-link>
+  <router-link to="/onboard" class="nav_menu">Resources</router-link>
+  <router-link to="/contact" class="nav_menu">Contact</router-link>
+        </div>
+        <div class="nav_buttons row">
+          <router-link to="/login" class="button">Login</router-link>
+
+          <router-link to="/onboard" class="button">Sign up</router-link>
+
+        </div>
+      </nav>
+      <div class="hero_images">
+        <img class="pattern_image" src="@/assets/pattern.png" alt="Pattern image">
+        <img class="plus_image" src="@/assets/plus.png" alt="Plus image">
+
+      </div>
+      <section class="hero_text">
+   <h1 class="biggest_text">Revolutionize Healthcare Operations <span class="big_span">by integrating and optimizing key processes.</span></h1>
+    <p class="paragraph">With a focus on patient-centric care, efficiency, and data-driven decision-making, CareTrack+ is a software solution designed to streamline and optimise healthcare operations, enhance patient care delivery, and improve overall efficiency within healthcare facilities.</p>
+
+</section>
+  </div>
+    <main>
+
+    </main>
+   
 
 
   </div>

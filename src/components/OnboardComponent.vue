@@ -1,4 +1,21 @@
 <template>
+   <nav class="navbar row">
+        <router-link to="/" class="logo_box">
+          <img class="logo" src="../../public/logofull.svg" alt="CareTrack+ logo">
+        </router-link>
+        <div class="nav_menus row">
+  <router-link to="/onboard" class="nav_menu">Solution</router-link>
+  <router-link to="/login" class="nav_menu">Pricing</router-link>
+  <router-link to="/onboard" class="nav_menu">Resources</router-link>
+  <router-link to="/contact" class="nav_menu">Contact</router-link>
+        </div>
+        <div class="nav_buttons row">
+          <router-link to="/login" class="button">Login</router-link>
+
+          <router-link to="/onboard" class="button">Sign up</router-link>
+
+        </div>
+      </nav>
     <div class="column onboard">
       <h2 class="big_text">We are happy to
   have you <span class="red_text">onboard</span></h2>
