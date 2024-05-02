@@ -34,7 +34,7 @@
 
     <div class="row form_box">
     <label class="label last_label" for="hospitallogo">Upload Hospital Logo</label>
-    <label for="fileToUpload" class="custom-file-upload">
+    <label for="hospitallogo" class="custom-file-upload">
             <span class="row onboard_upload">
                 <!-- Your custom icon here -->
                 <img src="@/assets/upload.png" alt="Upload Icon">

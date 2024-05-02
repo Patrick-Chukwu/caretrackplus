@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: Inter;
 }
 :root {
     --primary-color: #008DB9;
@@ -14,7 +18,7 @@
     /* font-sizes */
     --big-text: 2.25rem;
     --big-lineheight: 2.59rem;
-    --medium-text: 1.875rem;
+    --medium-text: 1.25rem;
     --medium-lineheight: 1.5125rem; 
     --small-text: 1rem;
     --small-lineheight: 1.21rem;
@@ -102,12 +106,7 @@ padding: 1rem .5rem;
 width: 252px;
 max-height: 53px;  
 }
-.last_label {
-    /* border: 1px solid var(--secondary-color); */
-font-size: 1.6rem;
-/* justify-self:flex-end;
-align-self: center; */
-}
+
 input {
     border: none;
     border-radius: var(--radius);
@@ -140,6 +139,10 @@ input {
     border: none;
     border-radius: var(--radius);
     width: 252px;
+    gap: var(--medium-padding);
+    justify-content: flex-start;
+    align-items: center;
+
   }
 
   .footer {
