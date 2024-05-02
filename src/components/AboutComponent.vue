@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<style scoped>
+<!-- <style scoped>
 h1 {
   margin: 40px 0 0;
 }
@@ -23,4 +23,4 @@ li {
 a {
   color: #42b983;
 }
-</style>
+</style> -->

@@ -7,11 +7,141 @@
 :root {
     --primary-color: #008DB9;
     --secondary-color: #FF0000;
-    --white: #fff;
+    --white-color: #fff;
+    --accent-color: #E5E5E5;
+    --black-color: #000;
+
+    /* font-sizes */
+    --big-text: 2.25rem;
+    --big-lineheight: 2.59rem;
+    --medium-text: 1.875rem;
+    --medium-lineheight: 1.5125rem; 
+    --small-text: 1rem;
+    --small-lineheight: 1.21rem;
+    --smallest-text: 13px;
+    --smallest-lineheight: 0.983rem;
 
 
+    /* gap */
+    --medium-gap: .5rem;
+    /* border-radius */
+    --radius: .625rem;
+
+    --medium-padding: .95rem;
+    --small-padding: .625rem;
+    --big-padding: 1.85rem;
 }
 
+/* global styles */
 body {
-    
+    color: var(--primary-color);
 }
+.row {
+    display: flex;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .big_text {
+    font-size: var(--big-text);
+    line-height: var(--big-lineheight);
+  }
+
+  .red_text {
+    color: var(--secondary-color);
+  }
+
+  /* button styles */
+  .button {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: var(--radius);
+    font-size: var(--medium-text);
+    line-height: var(--medium-lineheight);
+    font-weight: 700;
+    max-width: 252px;
+    padding: var(--medium-padding) var(--big-padding);
+    align-self: center;
+
+  }
+
+  /* onboarding design starts */
+  .onboard {
+    text-align: center;
+    gap: var(--medium-gap);
+    padding-top: 70px;
+  }
+  .onboard_form {
+    color: var(--white-color);
+    font-size: var(--medium-text);
+    font-weight: 500;
+    line-height: var(--medium-lineheight);
+    margin-bottom: 50px;
+    gap: var(--medium-gap);
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    margin: 30px auto;
+  }
+  .form_box {
+
+    justify-content: center;
+    margin: 0 auto;
+    gap: 8px;
+    align-items: center;
+
+    
+  }
+.label {
+border-radius: var(--radius);
+background-color: var(--primary-color);
+text-align: left;
+padding: 1rem .5rem;
+width: 252px;
+max-height: 53px;  
+}
+.last_label {
+    /* border: 1px solid var(--secondary-color); */
+font-size: 1.6rem;
+/* justify-self:flex-end;
+align-self: center; */
+}
+input {
+    border: none;
+    border-radius: var(--radius);
+    width: 252px;
+    height: 53px;
+    background-color: var(--accent-color);
+  }
+
+  .onboard .big_text {
+    text-transform: uppercase;
+    width: 90%;
+    max-width: 392px;
+    margin: 0 auto;
+    font-weight: 600;
+
+  }
+
+  .upload_text {
+    vertical-align: middle;
+    color: var(--primary-color);
+
+  }
+  .default_upload {
+    display: none;
+  }
+  .onboard_upload {
+    background-color: var(--accent-color);
+    padding: var(--small-padding) var(--big-padding);
+    height: 53px;
+    border: none;
+    border-radius: var(--radius);
+    width: 252px;
+  }
+
+  .footer {
+    text-transform: uppercase;
+  }
