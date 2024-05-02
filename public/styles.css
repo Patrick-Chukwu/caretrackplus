@@ -233,6 +233,23 @@ input {
     margin-bottom: var(--big-lineheight);
   }
 
-  @media screen (max) {
-    
+  @media screen and (max-width: 450px) {
+    .form_box {
+      flex-direction: column;
+    }
+
+    /* login page */
+    .login_page {
+width: 95%;
+margin: 0 auto;
+padding: 5rem .5rem;
+
+    }
+    .login_page-left {
+      width: 90%;
+    }
+
+    .login_page-right, .nurse_image {
+      display: none;
+    }
   }
