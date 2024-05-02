@@ -127,6 +127,9 @@ input {
     height: 53px;
     background-color: var(--accent-color);
   }
+  input:focus {
+    outline: 2px solid var(--secondary-color);
+  }
 
   .onboard .big_text {
     text-transform: uppercase;
