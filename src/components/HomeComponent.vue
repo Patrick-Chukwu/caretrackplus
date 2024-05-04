@@ -14,7 +14,7 @@
         <div class="nav_buttons row">
           <router-link to="/login" class="button">Login</router-link>
 
-          <router-link to="/onboard" class="button">Sign up</router-link>
+          <router-link to="/onboard" class="button">Get started</router-link>
 
         </div>
       </nav>
