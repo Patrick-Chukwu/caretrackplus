@@ -28,6 +28,7 @@
     <p class="paragraph">With a focus on patient-centric care, efficiency, and data-driven decision-making, CareTrack+ is a software solution designed to streamline and optimise healthcare operations, enhance patient care delivery, and improve overall efficiency within healthcare facilities.</p>
 
 </section>
+<img src="@/assets/mockup.png" alt="CareTrack+ Dashboard Mockup" class="mockup">
   </div>
     <main>
 
