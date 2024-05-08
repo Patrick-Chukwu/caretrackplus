@@ -31,7 +31,30 @@
 <img src="@/assets/mockup.png" alt="CareTrack+ Dashboard Mockup" class="mockup">
   </div>
     <main>
-
+      <section class="impact">
+        <div class="row impact_boxes">
+  <div class="column impact_box">
+    <h2 class="impact_number">500+ </h2>
+    <p class="impact_texts">Active Hospitals</p>
+  </div>
+  <div class="column impact_box">
+    <h2 class="impact_number">500+ </h2>
+    <p class="impact_texts">Active Hospitals</p>
+  </div>
+  <div class="column impact_box">
+    <h2 class="impact_number">3000+ </h2>
+    <p class="impact_texts">Active Patients</p>
+  </div>
+  <div class="column impact_box">
+    <h2 class="impact_number">1000+ </h2>
+    <p class="impact_texts">Active Doctors</p>
+  </div>
+  <div class="column impact_box">
+    <h2 class="impact_number">800+ </h2>
+    <p class="impact_texts">Active Nurse</p>
+  </div>
+</div>
+      </section>
     </main>
    
 

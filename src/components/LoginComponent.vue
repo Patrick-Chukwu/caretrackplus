@@ -8,7 +8,7 @@
     </div>
 
    <form class="column login_form" action="">
-    <select class="input login_input" name="role" id="role">
+    <!-- <select class="input login_input" name="role" id="role">
       <option disabled selected value="userrole">User Role</option>
       <option value="admin">Admin</option>
       <option value="doctor">Doctor</option>
@@ -20,7 +20,7 @@
 
 
 
-    </select>
+    </select> -->
     <input class="login login_input" type="text" name="userid" id="userid" placeholder="User ID">
     <input class="login login_input" type="password" name="password" id="password" placeholder="Password">
    </form>

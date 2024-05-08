@@ -11,7 +11,7 @@
 :root {
     --primary-color: #008DB9;
     --light-primary-color: #0583AA;
-    --secondary-color: #FF0000;
+    --secondary-color: #C62E65;
     --white-color: #fff;
     --accent-color: #E5E5E5;
     --black-color: #000;
@@ -363,6 +363,10 @@ option {
     text-decoration: underline;
     font-weight: 600;
     margin-bottom: var(--big-lineheight);
+  }
+
+  .impact {
+    margin-top: 350px;
   }
 
   @media screen and (max-width: 450px) {
