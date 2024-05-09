@@ -64,7 +64,7 @@
   </div>
 
   </form>
-  <button type="submit" class="button">Onboard</button>
+  <button type="submit" class="button" onclick="alert('Welcome onboard!')">Onboard</button>
   <h3 class="small_text footer">Powered by Caretrack+</h3>
     </div>
   </template>
