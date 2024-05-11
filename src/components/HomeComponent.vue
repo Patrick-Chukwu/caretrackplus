@@ -53,7 +53,7 @@
     <h2 class="impact_number">800+ </h2>
     <p class="impact_texts">Active Nurse</p>
   </div>
-</div>
+</div> 
 <div>
   <router-link to="/onboard" class="button">Get started</router-link>
 </div>

@@ -15,6 +15,7 @@
     --white-color: #fff;
     --accent-color: #E5E5E5;
     --black-color: #000;
+    --grey-color: #4E4E4E;
     --link-text-size: 24px;
 
     /* font-sizes */
@@ -366,9 +367,33 @@ option {
   }
 
   .impact {
-    margin-top: 450px;
+    margin-top: 350px;
+    justify-content: center;
+    align-items: center;
   }
 
+
+.impact_boxes {
+  text-align: center;
+  gap: var(--medium-padding);
+  margin: 80px auto;
+  justify-content: center;
+}
+.impact_box {
+  
+}
+.impact_number {
+  font-size: var(--big-text);
+  color: var(--grey-color);
+  font-weight: 700;
+  line-height: var(--big-lineheight);
+}
+
+.impact_texts {
+  font-size: var(--medium-text);
+  color: var(--black-color);
+  font-weight: var(--medium-lineheight);
+}
   @media screen and (max-width: 450px) {
     .form_box {
       flex-direction: column;
