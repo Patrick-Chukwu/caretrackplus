@@ -31,7 +31,7 @@
 <img src="@/assets/mockup.png" alt="CareTrack+ Dashboard Mockup" class="mockup">
   </div>
     <main>
-      <section class="impact">
+      <section class="impact column">
         <div class="row impact_boxes">
   <div class="column impact_box">
     <h2 class="impact_number">500+ </h2>
@@ -53,6 +53,9 @@
     <h2 class="impact_number">800+ </h2>
     <p class="impact_texts">Active Nurse</p>
   </div>
+</div>
+<div>
+  <router-link to="/onboard" class="button">Get started</router-link>
 </div>
       </section>
     </main>
