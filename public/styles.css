@@ -398,7 +398,8 @@ option {
 }
 
 .spectrum {
-  width: 80%;
+  width: 70%;
+  max-width: 1200px;
   text-align: center;
   margin: 0 auto;
   gap: var(--medium-gap);
