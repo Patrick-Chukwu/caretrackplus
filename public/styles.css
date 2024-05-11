@@ -404,6 +404,15 @@ option {
   margin: 0 auto;
   gap: var(--medium-gap);
 }
+
+.spectrum p               {
+  text-align: left;
+  max-width: 1006px;
+  align-self: center;
+  justify-self: center;
+  margin: var(--medium-gap) auto;
+  color: var(--black-color);
+}
   @media screen and (max-width: 450px) {
     .form_box {
       flex-direction: column;
