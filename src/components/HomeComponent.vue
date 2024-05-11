@@ -58,6 +58,15 @@
   <router-link to="/onboard" class="button">Get started</router-link>
 </div>
       </section>
+
+      <section class="column spectrum">
+        <h2 class="big_text">
+          Unlock The Full Spectrum Of Healthcare Management With Our All-In-One Solution
+        </h2>
+        <p class="paragraph">
+          With CareTrack+, healthcare providers can efficiently manage patient appointments, electronic health records (EHR), prescriptions, and laboratory tests, ensuring accurate and timely documentation of patient information. The system also includes features for inventory management, staff scheduling, and financial reporting, empowering healthcare organisations to optimise resource allocation and financial performance.
+        </p>
+      </section>
     </main>
    
 

@@ -367,9 +367,10 @@ option {
   }
 
   .impact {
-    margin-top: 350px;
+    margin: 350px auto;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
   }
 
 
@@ -380,7 +381,8 @@ option {
   justify-content: center;
 }
 .impact_box {
-  
+  align-items: center;
+  justify-content: center;
 }
 .impact_number {
   font-size: var(--big-text);
@@ -393,6 +395,13 @@ option {
   font-size: var(--medium-text);
   color: var(--black-color);
   font-weight: var(--medium-lineheight);
+}
+
+.spectrum {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  gap: var(--medium-gap);
 }
   @media screen and (max-width: 450px) {
     .form_box {
