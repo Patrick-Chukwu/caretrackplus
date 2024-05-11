@@ -1,4 +1,5 @@
 <template>
+
     <div class="row login_page">
 
   <div class="column login_page-left">
@@ -29,13 +30,19 @@
     <button class="button">Login</button>
     <p class="medium_text forgot_password">Forgot Password?</p>
    </div>
-   <h3 class="footer">Powered by Caretrack+</h3>
+  
   </div>
  
    <div class=" login_page-right">
     <img class="nurse_image" src="@/assets/lady.png" alt="Nurse Image">
   </div>
     </div>
+   <footer class="row custom_footer">
+    <h3 class="footer_text">Powered by</h3>
+    <router-link to="/" class="logo_box">
+          <img class="logo" src="../../public/logofull.svg" alt="CareTrack+ logo">
+        </router-link>
+   </footer>
   </template>
   
   <script>

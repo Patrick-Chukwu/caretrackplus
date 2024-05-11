@@ -3,12 +3,12 @@
         <router-link to="/" class="logo_box">
           <img class="logo" src="../../public/logofull.svg" alt="CareTrack+ logo">
         </router-link>
-        <div class="nav_menus row">
+        <!-- <div class="nav_menus row">
   <router-link to="/onboard" class="nav_menu">Solution</router-link>
   <router-link to="/login" class="nav_menu">Pricing</router-link>
   <router-link to="/onboard" class="nav_menu">Resources</router-link>
   <router-link to="/contact" class="nav_menu">Contact</router-link>
-        </div>
+        </div> -->
         <div class="nav_buttons row">
           <router-link to="/login" class="button">Login</router-link>
 
