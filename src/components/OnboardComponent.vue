@@ -1,5 +1,5 @@
 <template>
-   <nav class="navbar row">
+   <nav class="navbar_onboard row">
         <router-link to="/" class="logo_box">
           <img class="logo" src="../../public/logofull.svg" alt="CareTrack+ logo">
         </router-link>

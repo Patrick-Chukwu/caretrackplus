@@ -15,7 +15,7 @@
     --white-color: #fff;
     --accent-color: #E5E5E5;
     --black-color: #000;
-    --grey-color: #4E4E4E;
+    --grey-color: #4E4E4E;                                                                                   
     --link-text-size: 24px;
 
     /* font-sizes */
@@ -141,6 +141,15 @@ align-items: center;
   align-items: center;
   justify-content: space-between;
   z-index: 10;
+  
+}
+.navbar_onboard {
+  /* position: fixed; */
+  width: 100%;
+  padding:2rem 3rem;
+  align-items: center;
+  justify-content: space-between;
+  /* z-index: 10; */
   
 }
 .nav_menus, .nav_buttons {
