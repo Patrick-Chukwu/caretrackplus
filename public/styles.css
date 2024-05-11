@@ -149,6 +149,7 @@ align-items: center;
   padding:2rem 3rem;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: -80px;
   /* z-index: 10; */
   
 }
