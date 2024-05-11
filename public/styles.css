@@ -512,6 +512,8 @@ option {
   background-color: var(--primary-color);
   color: var(--white-color);
   padding: 3rem;
+  margin: 5rem auto;
+  margin-bottom: 0;
   gap: 1rem;
   text-align: center;
   font-weight: 600;
@@ -526,6 +528,12 @@ option {
 font-size: var(--medium-text);
 line-height: var(--medium-lineheight);
 
+}
+.cta .button {
+font-size: var(--big-text);
+font-weight: 700;
+width: fit-content;
+padding: 1rem 1.5rem;
 }
 /* footer styles */
 .footer {
