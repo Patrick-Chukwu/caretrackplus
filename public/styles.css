@@ -141,6 +141,7 @@ align-items: center;
   align-items: center;
   justify-content: space-between;
   z-index: 10;
+  flex: 1;
   
 }
 .navbar_onboard {
@@ -214,8 +215,10 @@ border-radius: 15px;
   position: relative;
   z-index: 5;
   top: -250px;
-  height: 740px;
-  width: 1184px;
+  height: 100%;
+  max-height: 740px;
+  width: 100%;
+  max-width: 1184px;
 }
   /* onboarding design starts */
   .onboard {
@@ -378,10 +381,11 @@ option {
   }
 
   .impact {
-    margin: 350px auto;
+    margin: 18rem auto;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 5rem;
+    flex: 1;
   }
 
 
@@ -549,6 +553,10 @@ padding: 1rem 1.5rem;
 }
 .footer_right {
   gap: .5rem;
+}
+.footer_right img {
+  width: 24px;
+  height: 24px;
 }
 .footer_text {
   text-transform: uppercase;
