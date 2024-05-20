@@ -118,7 +118,7 @@ body {
   }
 
   .nav_menu {
-    color: var(--white-color);
+    color: var(--ash-color);
     text-decoration: none;
     cursor: pointer;
     font-size: var(--link-text-size);
@@ -145,12 +145,13 @@ align-items: center;
 .navbar {
   position: absolute;
   width: 100%;
-  padding:2rem 3rem;
+  padding:1rem 3rem;
   align-items: center;
   justify-content: space-between;
   z-index: 10;
   flex: 1;
-  /* background-color: var(--white-color); */
+  background-color: var(--white-color);
+  color: var(--ash-color);
   
 }
 .navbar_onboard {
@@ -170,15 +171,16 @@ align-items: center;
   justify-content: space-evenly;
   gap: var(--big-padding);
   align-items: center;
+  color: var(--ash-color);
 }
 .nav_menus {
-background-color: var(--light-primary-color);
+  color: var(--ash-color);
 padding: var(--medium-padding) 2rem;
 border-radius: 15px;
 }
 .logo {
-  width: 60x;
-  height: 40px;
+  width: 77x;
+  height: 76px;
 }
 .logo_box {
   background: var(--white-color);
