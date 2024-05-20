@@ -4,6 +4,8 @@ import AboutComponent from './components/AboutComponent'
 import HomeComponent from './components/HomeComponent'
 import OnboardComponent from './components/OnboardComponent'
 import LoginComponent from './components/LoginComponent'
+import DashboardComponent from './components/Dashboard'
+
 
 import App from './App.vue'
 
@@ -13,7 +15,8 @@ const router = createRouter({
         { path: '/about', component: AboutComponent},
         { path: '/', component: HomeComponent},
         { path: '/onboard', component: OnboardComponent},
-        { path: '/login', component: LoginComponent}
+        { path: '/login', component: LoginComponent},
+        { path: '/dashboard', component: DashboardComponent}
 
 
     ]
