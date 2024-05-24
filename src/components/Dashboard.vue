@@ -71,6 +71,8 @@ export default {
 
 };
 </script>
-<style lang="">
-    
+<style lang="en">
+    /* .dashboard_box {
+        border: 1px solid red;
+    } */
 </style>
