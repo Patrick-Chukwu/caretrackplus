@@ -273,6 +273,8 @@ input {
     width: 252px;
     height: 53px;
     background-color: var(--accent-color);
+    padding-left: 1rem;
+
   }
   select {
     background-color: var(--accent-color);
@@ -286,7 +288,6 @@ input {
   
   input:focus, select:focus {
     outline: 2px solid var(--secondary-color);
-    padding-left: 1rem;
   }
 
   .onboard .big_text {
