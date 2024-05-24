@@ -95,7 +95,7 @@ body {
   }
 
   .red_text {
-    color: var(--secondary-color);
+    color: var(--primary-color);
   }
 
   /* button styles */
@@ -248,8 +248,13 @@ border-radius: 15px;
     gap: var(--medium-gap);
     justify-content: center;
     align-items: flex-start;
-    width: 70%;
+    width: 35%;
     margin: 30px auto;
+    margin-bottom: 5rem;
+  }
+
+  .onboard_form .onboard_button {
+    margin-top: 3rem;
   }
   .form_box {
 
@@ -298,6 +303,7 @@ input {
     max-width: 392px;
     margin: 0 auto;
     font-weight: 600;
+    color: var(--black-color);
 
   }
 
@@ -323,7 +329,12 @@ input {
 
   }
 
-
+.onboard_button {
+  /* justify-self: flex-end; */
+  align-self: flex-end;
+  /* border: 2px solid red; */
+  /* margin-left: 15rem; */
+}
   
   /* loginpage designs */
   .login_page {
