@@ -4,8 +4,7 @@
 
   <div class="column login_page-left">
     <div class="column loginpage_box">
-        <img class="client_logo" src="@/assets/gracelogo.svg" alt="Grace Hospital Logo">
-        <h3 class="client_name ">Grace Hospital</h3>
+        <img class="client_logo" src="@/assets/gracelogo.svg" alt="Mayo Clinic Logo">
     </div>
 
    <form class="column login_form" action="">
@@ -30,19 +29,22 @@
     <button class="button">Login</button>
     <p class="medium_text forgot_password">Forgot Password?</p>
    </div>
-  
+   <footer class="row login_footer">
+    <button class="change_team">Change Theme</button>
+    <div class="row powered_by">
+      <h3 class="footer_text">Powered by:</h3>
+    <router-link to="/" class="logo_box"><h3>CareTrack <span style="color: var(--secondary-color);">+</span></h3></router-link>
+    </div>
+ 
+   </footer>
   </div>
  
    <div class=" login_page-right">
+    <img class="login-pattern" src="@/assets/login-pattern.png" alt="Nurse Image">
+    <img class="login-pattern2" src="@/assets/login-pattern2.png" alt="Nurse Image">
     <img class="nurse_image" src="@/assets/lady.png" alt="Nurse Image">
   </div>
     </div>
-   <footer class="row custom_footer">
-    <h3 class="footer_text">Powered by</h3>
-    <router-link to="/" class="logo_box">
-          <img class="logo" src="../../public/logofull.svg" alt="CareTrack+ logo">
-        </router-link>
-   </footer>
   </template>
   
   <script>

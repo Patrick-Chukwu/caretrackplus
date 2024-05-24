@@ -10,6 +10,8 @@
     font-family: Inter;
 }
 :root {
+
+    --defined-color: #6D6D6D;
     --primary-color: #376AEA;
     --light-primary-color: #0583AA;
 
@@ -340,6 +342,15 @@ input {
 .loginpage_box {
   gap: var(--medium-gap);
 }
+.change_team {
+text-decoration: underline;
+border: none;
+background-color: transparent;
+font-size: 20px;
+line-height: 24.2px;
+font-weight: 400;
+color: var(--defined-color);
+}
   .client_logo {
     width: 107px;
   }
@@ -356,9 +367,9 @@ input {
     height: 54px;
   }
   .login_input::placeholder, select::selection, option::placeholder {
-    color: var(--primary-color);
+    color: var(--black-color);
     padding-left: var(--medium-padding);
-    font-weight: 500;
+    font-weight: 400;
     font-size: var(--medium-text);
     line-height: var(--medium-lineheight);
   }
@@ -374,23 +385,43 @@ option {
   .login_page-right {
     width: 50%;
     /* border: apx solid var(--secondary-color); */
-    flex-shrink: 1;
-
+    /* flex-shrink: 1; */
+    background-color: var(--primary-color);
+position: relative;
+height: 100dvh;
+  }
+  .login-pattern {
+    position: absolute;
+    z-index: 1;
+    height: 100dvh;
+    top: 0px;
+    right: 0;
+  }
+  .login-pattern2 {
+    position: absolute;
+    z-index: 2;
+    top: -100px;
+    left: 5px;
+    height: 100dvh;
   }
   .nurse_image{
-    /* max-width: 716px; */
-    min-width: 716px;
-    height: 100vh;
-    position: relative;
+    width: 100%;
+    max-width: 706px;
+
+    height: 100dvh;
+    position: absolute;
+    z-index: 5;
     right: 0;
     top: 0;
-    border: apx solid var(--secondary-color);
 
   }
   .forgot_password {
     text-decoration: underline;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.5px;
     margin-bottom: var(--big-lineheight);
+    color: var(--black-color);
   }
 
   .impact {
@@ -558,6 +589,29 @@ width: fit-content;
 padding: 1rem 1.5rem;
 }
 /* footer styles */
+
+.powered_by {
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.logo_box {
+  text-decoration: none;
+  color: var(--primary-color);
+
+}
+.login_footer {
+  width: 90%;
+  padding: 2rem;
+  /* margin: 0 auto; */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 2rem;
+  color: var(--defined-color);
+
+}
 .footer {
   justify-content: space-between;
   align-items: center;

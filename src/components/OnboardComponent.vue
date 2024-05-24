@@ -65,7 +65,10 @@
 
   </form>
   <button type="submit" class="button" onclick="alert('Welcome onboard!')">Onboard</button>
-  <h3 class="small_text footer">Powered by Caretrack+</h3>
+  <div class="row powered_by">
+      <h3 class="footer_text">Powered by:</h3>
+    <router-link to="/" class="logo_box"><h3 style="color: var(--primary-color);">CareTrack <span style="color: var(--secondary-color);">+</span></h3></router-link>
+    </div>
     </div>
   </template>
   
