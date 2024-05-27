@@ -44,10 +44,12 @@
     <input type="password"  id="password" >
   </div> -->
 
-    <!-- <div class="row form_box">
-    <label class="label" for="confirmpassword">Confirm Password</label>
-    <input type="password"  id="confirmpassword" >
-  </div> -->
+    <div class="row form_box">
+    <!-- <label class="label" for="confirmpassword">Confirm Password</label>
+    <input type="password"  id="confirmpassword" > -->
+    <label for="upload">Upload logo</label>
+    <input type="file" name="upload" id="upload" placeholder="Add file">
+  </div>
 
     <div class="row form_box">
     <label class="label last_label" for="hospitallogo">Upload Hospital Logo</label>

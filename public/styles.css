@@ -416,14 +416,14 @@ height: 100dvh;
     height: 100dvh;
   }
   .nurse_image{
-    width: 100%;
-    max-width: 706px;
+    width: 706px;
+    /* max-width: 706px; */
 
-    height: 100dvh;
+    height: calc(100dvh - 20px);
     position: absolute;
     z-index: 5;
     right: 0;
-    top: 0;
+    top: 20px;
 
   }
   .forgot_password {
