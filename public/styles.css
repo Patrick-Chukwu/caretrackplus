@@ -241,14 +241,14 @@ border-radius: 15px;
   }
   .onboard_form {
     color: var(--white-color);
-    font-size: var(--medium-text);
-    font-weight: 500;
-    line-height: var(--medium-lineheight);
+    font-size: var(--paragraph-text);
+    font-weight: 400;
+    line-height: var(--pargraph-lineheight);
     margin-bottom: 50px;
     gap: var(--medium-gap);
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    width: 35%;
+    /* width: 35%; */
     margin: 30px auto;
     margin-bottom: 5rem;
   }
@@ -258,10 +258,12 @@ border-radius: 15px;
   }
   .form_box {
 
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0 auto;
-    gap: 8px;
-    align-items: center;
+    gap: 1rem;
+    align-items: flex-start;
+    font-size: var(--paragraph-text);
+    line-height: var(--paragraph-lineheight);
 
     
   }
@@ -271,16 +273,19 @@ background-color: var(--primary-color);
 text-align: left;
 padding: 1rem 1rem;
 width: 252px;
-max-height: 53px;  
+max-height: 53px;
+font-size: 20px;
+font-weight: 400;
 }
 
 input {
     border: none;
     border-radius: var(--radius);
-    width: 252px;
+    width: 635px;
     height: 53px;
     background-color: var(--accent-color);
     padding-left: 1rem;
+    border: 1px solid var(--black-color);
 
   }
   select {
@@ -294,7 +299,7 @@ input {
   }
   
   input:focus, select:focus {
-    outline: 2px solid var(--secondary-color);
+    outline: 1px solid var(--primary-color);
   }
 
   .onboard .big_text {
@@ -419,11 +424,13 @@ height: 100dvh;
     width: 706px;
     /* max-width: 706px; */
 
-    height: calc(100dvh - 20px);
+    height: calc(100dvh - 10px);
+    /* height: 1000px; */
+    overflow: hidden;
     position: absolute;
     z-index: 5;
     right: 0;
-    top: 20px;
+    top: 10px;
 
   }
   .forgot_password {
