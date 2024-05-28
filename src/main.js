@@ -4,7 +4,7 @@ import AboutComponent from './components/AboutComponent'
 import HomeComponent from './components/HomeComponent'
 import OnboardComponent from './components/OnboardComponent'
 import LoginComponent from './components/LoginComponent'
-import DashboardComponent from './components/Dashboard'
+import DashboardComponent from './components/DashboardComponent'
 
 
 import App from './App.vue'
