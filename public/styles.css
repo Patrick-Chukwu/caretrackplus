@@ -428,12 +428,10 @@ height: 100dvh;
     height: 720px;
 
     /* height: 1000px; */
-    overflow: hidden;
     position: absolute;
     z-index: 5;
-    right: 0;
-    top: 30px;
-
+    left: 20px;
+    bottom: 0;
   }
   .forgot_password {
     text-decoration: underline;
